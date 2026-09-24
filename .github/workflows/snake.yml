@@ -1,0 +1,43 @@
+name: Generate snake animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: redduxz
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%2336BCF7&color_dots=%23ebedf0,%23a5dcf5,%2367ccf0,%2336bcf7,%231287b8
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%2336BCF7&color_dots=%23161b22,%230b3049,%230e4a6e,%23136795,%2336bcf7
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate top languages svg
+        run: python scripts/top_langs.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
