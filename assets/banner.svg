@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      width="800" height="240" viewBox="0 0 800 240" role="img"
-     aria-label="reddux — security researcher">
+     aria-label="reddux - security researcher">
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
@@ -35,5 +35,5 @@
   <text x="180" y="110" fill="#ffffff" font-size="15" font-weight="600"
         letter-spacing="2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">SECURITY RESEARCHER</text>
   <line x1="180" y1="124" x2="620" y2="124" stroke="#21262d" stroke-width="1"/>
-  <text x="180" y="154" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">- offensive security &amp; penetration testing</text><text x="180" y="180" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">- bug bounty hunting — hackerone &amp; private programs</text><text x="180" y="206" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">- founder &amp; engineer @ meridian safety</text>
+  <text x="180" y="154" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">- offensive security &amp; penetration testing</text><text x="180" y="180" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">- bug bounty hunting - hackerone &amp; private programs</text><text x="180" y="206" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">- founder &amp; engineer @ meridian safety</text>
 </svg>

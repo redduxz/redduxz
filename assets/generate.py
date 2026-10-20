@@ -1,5 +1,5 @@
 # Regenerates assets/banner.svg and assets/stack.svg.
-# Pure-SVG animated cards (SMIL + declarative animation only — works inside
+# Pure-SVG animated cards (SMIL + declarative animation only - works inside
 # GitHub's <img>/camo pipeline; no JS, no external requests).
 # Icons are pulled from the simpleicons CDN and embedded as white paths.
 # Run: python3 assets/generate.py
@@ -17,7 +17,7 @@ NAME = "reddux"
 ROLE = "security researcher"
 LINES = [
     "- offensive security & penetration testing",
-    "- bug bounty hunting — hackerone & private programs",
+    "- bug bounty hunting - hackerone & private programs",
     "- founder & engineer @ meridian safety",
 ]
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
@@ -117,7 +117,7 @@ def banner_svg(avatar_b64):
     caret_x = 180 + len(NAME) * 18 + 6
     return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      width="{W}" height="240" viewBox="0 0 {W} 240" role="img"
-     aria-label="reddux — security researcher">
+     aria-label="reddux - security researcher">
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>

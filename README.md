@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/redduxz/redduxz/main/assets/banner.svg?v=5" width="800" alt="reddux — security researcher" />
+  <img src="https://raw.githubusercontent.com/redduxz/redduxz/main/assets/banner.svg?v=5" width="800" alt="reddux - security researcher" />
 </p>
 
 <p align="center">
@@ -15,5 +15,5 @@
 </p>
 
 <p align="center">
-  <samp>email me for any work enquiries — <a href="mailto:reddux@meridiansafety.dev">reddux@meridiansafety.dev</a></samp>
+  <samp>email me for any work enquiries - <a href="mailto:reddux@meridiansafety.dev">reddux@meridiansafety.dev</a></samp>
 </p>
